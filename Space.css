@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+.all-wrapper{
+    border: 3px solid purple;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.925);
+    border-radius: 50px;
+}
+.all-wrapper h1{
+    margin-bottom: 2rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.all-wrapper p{
+    margin-bottom: 1rem;
+    color: white;
+}
+.all-wrapper a{
+    margin-bottom: 1rem;
+    color: #CBC3E3;
+    text-decoration: none;
+}
+.all-wrapper a:hover{
+    font-size: larger;
+    color: purple;
+}
+.all-image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
